@@ -1,0 +1,57 @@
+/* styles.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background-color: #00529B;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.softskills {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.softskills h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #00529B;
+}
+
+.softskills ul {
+  list-style: none;
+}
+
+.softskills li {
+  margin-bottom: 10px;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.softskills li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #2E8B57;
+}
